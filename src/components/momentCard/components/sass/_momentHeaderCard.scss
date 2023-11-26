@@ -1,0 +1,58 @@
+html.htmlSun body#bodyId {
+
+    .MomentCard {
+        .css-i4bv87-MuiSvgIcon-root {
+            color: $colorA-sun;
+        }
+        .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+            background-color: $colorC-sun;
+        }
+        .MuiCardHeader-root {
+            background-color: $colorE-sun;
+
+            .css-1qvr50w-MuiTypography-root {
+                font-family: $fontC;
+                font-weight: bold;
+                font-size: 1.7em;
+                color: $colorA-sun;
+                text-shadow:
+                        2px 7px 5px rgba(0, 0, 0, 0.3),
+                        0px -4px 10px rgba(255, 255, 255, 0.3);
+            }
+            .css-nrdprl-MuiTypography-root {
+                color: $colorC-sun;
+                font-family: $fontC;
+            }
+        }
+    }
+}
+html.htmlMoon body#bodyId {
+
+    .MomentCard {
+        .css-i4bv87-MuiSvgIcon-root {
+            color: $colorA-moon;
+        }
+    
+        .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+            background-color: $colorC-moon;
+        }
+
+        .MuiCardHeader-root {
+            background-color: $colorA-moon;
+
+            .css-1qvr50w-MuiTypography-root {
+                font-family: $fontC;
+                font-weight: bold;
+                font-size: 1.7em;
+                color: $colorE-moon;
+                text-shadow:
+                        2px 7px 5px rgba(0, 0, 0, 0.3),
+                        0px -4px 10px rgba(255, 255, 255, 0.3);
+            }
+            .css-nrdprl-MuiTypography-root {
+                color: $colorC-moon;
+                font-family: $fontC;
+            }
+        }
+    }
+}

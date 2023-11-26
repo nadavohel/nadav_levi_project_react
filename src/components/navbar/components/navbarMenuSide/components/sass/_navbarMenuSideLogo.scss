@@ -1,0 +1,21 @@
+body#bodyId .navbarMenuSide {
+    .profile {
+        width: 39px;
+        height: 39px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        img {
+            width: 39px;
+            height: 39px;
+            border-radius: 5px;
+        }
+    }
+}
+
+body#bodyId .navbarMenuSideContent {
+
+    .profileInMenuCursor {
+        cursor: pointer;
+    }
+}

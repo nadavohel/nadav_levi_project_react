@@ -1,0 +1,55 @@
+body#bodyId .page404 {
+    width: 100%;
+    height: 100%;
+    z-index: 70000;
+    background-color: #E8E6ED;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    div {
+
+        div.img404 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 40vw;
+            };
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                h1 {
+                    color: #ACCAF2;
+                    -webkit-text-stroke: 2px black;
+                }
+            }
+        }
+
+        div.ohOh404 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    h1.linkToHome {
+        -webkit-text-stroke: 2px black;
+        margin-top: 15px;
+        font-size: 3em;
+
+        &:hover {
+            color: #ACCAF2;
+            -webkit-text-stroke: 2px black;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+// main scss
+@import "./scss/mediaQueries";
+@import "./scss/color";
+@import "./scss/setup";
+@import "./scss/scrollbar";
+@import "./scss/app";
+@import "./scss/index";
+@import "./scss/basicElement";
+// admin
+    // adminAccordion
+    @import "./admin/components/adminAccordion/sass/accordion";
+        // components
+        @import "./admin/components/adminAccordion/components/scss/userHeaderAccordion";
+        // userBodyAccordion
+            // components
+            @import "./admin/components/adminAccordion/components/userBodyAccordion/components/sass/userBodyAccordionDetails";
+            @import "./admin/components/adminAccordion/components/userBodyAccordion/components/sass/userBodyAccordionImg";
+            @import "./admin/components/adminAccordion/components/userBodyAccordion/components/sass/userAccordionRemove";
+            @import "./admin/components/adminAccordion/components/userBodyAccordion/components/sass/userAccordionMoments";
+    // adminTable
+    @import "./admin/components/adminTable/sass/table";
+    // adminUserCards
+    @import "./admin/components/adminUserCards/sass/userCard";
+        // components
+        @import "./admin/components/adminUserCards/components/sass/userHeaderCard";
+        @import "./admin/components/adminUserCards/components/sass/menuUserCard";
+        @import "./admin/components/adminUserCards/components/sass/userCardAdress";
+        @import "./admin/components/adminUserCards/components/sass/userCardIconsMenu";
+// components
+    // momentCard
+    @import "./components/momentCard/sass/momentCard";
+        // components
+        @import "./components/momentCard/components/sass/iconsMomentCard";
+        @import "./components/momentCard/components/sass/linkMomentMenu";
+        @import "./components/momentCard/components/sass/momentHeaderCard";
+        @import "./components/momentCard/components/sass/momentSubtitle";
+        @import "./components/momentCard/components/sass/momentImgCard";
+    // navbar
+    @import "./components/navbar/sass/navbar";
+    @import "./components/navbar/sass/navbarMenu";
+        // components
+        @import "./components/navbar/components/sass/navbarSearch";
+        @import "./components/navbar/components/sass/searchMobile";
+        @import "./components/navbar/components/sass/navbarBottomLine";
+        // NavbarMenuSide
+        @import "./components/navbar/components/navbarMenuSide/sass/navbarMenuSide";
+            // components
+            @import "./components/navbar/components/navbarMenuSide/components/sass/navbarMenuSideLogo";
+                // navbarMenuSideContent
+                    // components
+                    @import "./components/navbar/components/navbarMenuSide/components/NavbarMenuSideContent/components/sass/navbarMenuSideContentImg";
+        // NavbarMenuMain
+        @import "./components/navbar/components/NavbarMenuMain/sass/navbarMenuMain";
+    // footer
+    @import "./components/footer/footer";
+        // components
+        @import "./components/footer/components/sass/fotterIconFotter";
+        @import "./components/footer/components/sass/fotterlinkFotter";
+        @import "./components/footer/components/sass/fotterCopyright";
+            // linkFooter
+            @import "./components/footer/components/LinkFooter/sass/linkFooter";
+    // cordionGallery
+    @import "./components/cordionGallery/sass/cordionGallery";
+    @import "./components/cordionGallery/sass/shakekeyframes";
+        // components
+        @import "./components/cordionGallery/components/sass/galleyCordionImg";
+    // snackbar
+    @import "./components/sass/snackbar";
+    // loader
+    @import "./components/sass/loader";
+    // linkButton
+    @import "./components/sass/linkButton";
+    // displayMoment
+    @import "./components/displayMoment/sass/displayMoment";
+        // components
+        @import "./components/displayMoment/components/sass/displayBox";
+            // displayBoxColor
+        @import "./components/displayMoment/components/displayBoxColor/sass/displayBoxColor";
+    // gallerySlider
+    @import "./components/sass/gallerySlider";
+    // darkMode
+    @import "./components/sass/darkMode/darkMode";
+    @import "./components/sass/darkMode/darkModeKeyframes";
+    // myProfile
+    @import "./components/myProfile/sass/myProfile";
+        // components
+        @import "./components/myProfile/components/sass/myProfileExitSign";
+        @import "./components/myProfile/components/sass/myProfileImg";
+// pages
+    // momentPage
+    @import "./pages/momentPage/sass/momentPage";
+    // page404
+    @import "./pages/sass/page404";
+// user
+@import "./user/sass/forms";
+    // components
+    @import "./user/components/sass/inputStyle";
+    @import "./user/components/sass/goBackLink";

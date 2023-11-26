@@ -1,0 +1,78 @@
+// settings: 
+@mixin textShadow($color) {
+    text-shadow:
+        1px 1px 1px $color,
+        1px -1px 1px $color,
+        -1px 1px 1px $color,
+        -1px -1px 1px $color,
+        2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+@mixin footerLinkP($fontSize, $width, $paddingTop, $margin) {
+    text-align: center;
+    font-weight: 900;
+    height: 28px;
+    letter-spacing: 0;
+    line-height: 0;
+    font-size: $fontSize;
+    width: $width;
+    padding-top: $paddingTop;
+    margin: $margin;
+}
+// main:
+html footer div.footerContainer div.linkFotter{
+
+    p.footerLink {
+        @include footerLinkP(1.8em, 240px,12px, 0 10px 0);
+
+        @include laptopScreen {
+            font-size: 1.2em;
+        }
+    }
+
+    p.pBetween {
+        @include footerLinkP(2.3em, 30px, 8px, 0);
+        font-family: $fontC;
+    }
+}
+
+html.htmlSun body#bodyId footer div.footerContainer div.linkFotter {
+
+    p.footerLink {
+        color: $colorB-sun;
+        @include textShadow(#000);
+    }
+
+    p.footerLink:hover {
+        color: $colorC-sun;
+    }
+
+    p.footerActiveLink {
+        color: $colorD-sun;
+    }
+
+    p.pBetween {
+        color: $colorBlack;
+    }
+}
+
+html.htmlMoon body#bodyId footer div.footerContainer div.linkFotter {
+
+    p.footerLink {
+        color: $colorE-moon;
+        @include textShadow(#000);
+    }
+
+    p.footerLink:hover {
+        color: $colorF-moon;
+    }
+
+    p.footerActiveLink {
+        color: $colorA-moon;
+        @include textShadow(#fff);
+    }
+
+    p.pBetween {
+        color: $colorBlack;
+    }
+}

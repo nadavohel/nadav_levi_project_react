@@ -1,0 +1,20 @@
+html.htmlSun div.containerMomentCard {
+
+    div.userCardShadow {
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+        &:hover {
+            box-shadow: rgb(150, 182, 216) 0px 20px 30px -10px;
+        }
+    }
+}
+html.htmlMoon div.containerMomentCard {
+
+    div.userCardShadow {
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        
+        &:hover {
+            box-shadow: rgb(150, 182, 216) 0px 20px 30px -10px;
+        }
+    }
+}

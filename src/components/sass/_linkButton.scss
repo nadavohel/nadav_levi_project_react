@@ -1,0 +1,19 @@
+html.htmlSun body#bodyId .linkButton {
+    background-color: $colorE-sun;
+    color: $colorC-sun;
+
+    &:hover {
+        background-color: $colorE-sun-90;
+        color: $colorA-sun;
+    }
+}
+
+html.htmlMoon body#bodyId .linkButton {
+    background-color: $colorA-moon;
+    color: $colorC-moon;
+
+    &:hover {
+        background-color: $colorD-moon-90;
+        color: $colorC-moon;
+    }
+}

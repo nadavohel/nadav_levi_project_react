@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        
+        .MuiContainer-maxWidthXs {
+            margin-top: -64px;
+        }
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .inputStyle {
+        font-family: $fontA;
+    }
+    .containerWelcomeMoment {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        justify-content: center;
+        gap: 20px;
+    }
+    .containerMomentCard {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .centerGrid {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centerDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+html.htmlSun body#bodyId {
+    background-color: $colorC-sun;
+}
+
+html.htmlMoon body#bodyId {
+    background-color: $colorD-moon;
+}

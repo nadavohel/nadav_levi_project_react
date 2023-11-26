@@ -1,0 +1,63 @@
+.profileContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: rgba(142, 127, 255, 0.363);
+    z-index: -1;
+    opacity: 0;
+    
+    .profileBoc {
+        width: 80vw;
+        background-color: #fff;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        z-index: 60001;
+        border-radius: 20px;
+
+        @include extraScreen {
+            width: 90vw;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+    
+        p.emailAccordion {
+            @include miniTablet {
+                font-size: 1.1em;
+            }
+    
+            @include mobile {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+html.htmlSun .profileContainer {
+    background-color: $colorE-sun-90;
+
+    .profileBoc {
+        background-color: $colorE-sun;
+        p{
+            color: $colorA-sun;
+        }
+    }
+}
+html.htmlMoon .profileContainer {
+    background-color: $colorB-moon-90;
+
+    .profileBoc {
+        background-color: $colorD-moon;
+        p{
+            color: $colorA-moon;
+        }
+    }
+}

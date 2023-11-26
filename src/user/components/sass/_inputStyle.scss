@@ -1,0 +1,58 @@
+body#bodyId {
+
+    .textFieldLabel {
+        font-weight: 900;
+        font-size: 1.2em;
+    }
+}
+
+html.htmlSun body#bodyId {
+
+    .textFieldLabel {
+        color: $colorE-sun;
+    }
+    
+    div.inputContainer {
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+            color: $colorA-sun;
+            background-color: $colorC-sun;
+        }
+    }
+    .css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+        
+        background-color: $colorD-sun;
+    }
+    .css-1wc848c-MuiFormHelperText-root{
+        color: $colorF-sun;
+    }
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+        color: $colorB-sun;
+    }
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+        background-color: $colorB-sun;
+    }
+}
+html.htmlMoon body#bodyId {
+
+    .textFieldLabel {
+        color: $colorE-moon;
+    }
+    
+    div.inputContainer {
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+            color: $colorG-moon;
+            background-color: $colorD-moon;
+        }
+    }
+    .css-17vbkzs-MuiFormControl-root-MuiTextField-root{
+        background-color: $colorA-moon;
+        color: $colorA-moon;
+    }
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+        color: $colorE-moon;
+    }
+
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+        background-color: $colorE-moon;
+    }
+}

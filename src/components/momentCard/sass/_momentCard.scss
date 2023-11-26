@@ -1,0 +1,35 @@
+html body#bodyId {
+
+    .MomentCard {
+        width: 345px;
+        height: 423px;
+    }
+    .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+        background-color: $colorBlack;
+    }
+}
+
+html.htmlSun body#bodyId {
+
+    .MomentCard {
+        background-color: $colorBlack;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+        &:hover {
+            box-shadow: rgb(150, 182, 216) 0px 20px 30px -10px;
+        }
+    }
+    
+}
+
+html.htmlMoon body#bodyId {
+
+    .MomentCard {
+        background-color: $colorC-moon;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+        &:hover {
+            box-shadow: rgb(150, 182, 216) 0px 20px 30px -10px;
+        }
+    }
+}

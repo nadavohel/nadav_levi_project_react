@@ -1,0 +1,43 @@
+body#bodyId .navbarContainer .searchMobileContainer {
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    margin: -10px 0 8px;
+    display: flex;
+
+    .searchMobile {
+        width: 80vw;
+    }
+
+    @media (min-width: 600px) {
+        display: none;
+    }
+
+    .css-7mt4h1-MuiInputBase-root {
+        width: 100%;
+    }
+}
+
+html.htmlSun body#bodyId .navbarContainer .searchMobileContainer {
+    
+    .searchBoxSun {
+        background-color: $colorD-sun;
+        color: $colorA-sun;
+
+        &:hover {
+            background-color: $colorC-sun;
+        }
+    }
+}
+
+html.htmlMoon body#bodyId .navbarContainer .searchMobileContainer {
+
+    .searchBoxMoon {
+        background-color: $colorE-sun;
+        color: $colorA-sun;
+
+        &:hover {
+            background-color: $colorC-sun;
+        }
+    }
+}

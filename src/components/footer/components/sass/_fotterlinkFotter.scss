@@ -1,0 +1,29 @@
+footer div.footerContainer div.linkFotter {
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    
+
+    @include tablet {
+        display: none;
+    }
+    P {
+        font-family: $fontC;
+    }
+}
+
+div.footerLinkContainer {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include laptopScreen {
+        width: 180px;
+    }
+}

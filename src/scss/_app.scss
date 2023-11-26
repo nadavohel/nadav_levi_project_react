@@ -1,0 +1,22 @@
+.mainContainer{
+    display: flex;
+    overflow-x: hidden;
+    
+    div.bodyBox {
+        width: 100%;
+        min-height: 100.1vh;
+        overflow-x: hidden;
+        
+        .navBarBackground {
+            height: 75px;
+            width: 100%;
+            overflow-x: hidden;
+        }
+    }
+}
+.mainContainerSun {
+    background-color: $colorC-sun;
+}
+.mainContainerMoon {
+    background-color: $colorD-moon;
+}

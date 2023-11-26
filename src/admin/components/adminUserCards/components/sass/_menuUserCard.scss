@@ -1,0 +1,57 @@
+html.htmlSun {
+    body#bodyId{
+        .rowSideMenuUserCardBox {
+            background-color: $colorE-sun;
+            text-shadow:
+                2px 7px 5px rgba(0, 0, 0, 0.3),
+                0px -4px 10px rgba(255, 255, 255, 0.3);
+
+            .titleNenuSideName {
+                font-family: $fontA;
+            }
+            &:hover {
+                background-color: $colorD-sun;
+            }
+        }
+    }
+
+    div.containerMomentCard {
+    
+        .MuiButtonBase-root {
+            background-color: $colorD-sun;
+
+            &:hover {
+                background-color: $colorD-sun-90;
+            }
+        } 
+    }
+}
+html.htmlMoon {
+
+    body#bodyId {
+        .rowSideMenuUserCardBox {
+            background-color: $colorA-moon;
+            text-shadow:
+                2px 7px 5px rgba(0, 0, 0, 0.3),
+                0px -4px 10px rgba(255, 255, 255, 0.3);
+
+            .titleNenuSideName {
+                font-family: $fontA;
+            }
+            &:hover {
+                background-color: $colorB-moon;
+            }
+        }
+    }
+    div.containerMomentCard {
+
+        .MuiButtonBase-root {
+            background-color: $colorD-moon;
+
+            &:hover {
+                background-color: $colorD-moon-90;
+            }
+        } 
+
+    }
+}

@@ -1,0 +1,11 @@
+export const colorSunA = '#5C4B51';
+export const colorSunB = '#F06060';
+export const colorSunC = '#E8E6ED';
+export const colorSunD = '#F3B562';
+export const colorSunE = '#8CBEB2';
+export const colorMoonA = '#404040';
+export const colorMoonB = '#4B4A4D';
+export const colorMoonC = '#E9EAE5';
+export const colorMoonD = '#CDDDD0';
+export const colorMoonE = '#656B8C';
+export const colorMoonG = '#E8E6ED';

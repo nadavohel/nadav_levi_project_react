@@ -1,0 +1,76 @@
+body#bodyId .navbarContainer .navbarMenuMain {
+    .flexMainNavbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+    .navbarButton {
+        font-size: 1.1em;
+
+        @include extraScreen {
+            font-size: 1em;
+        }
+        @include largeScreen {
+            font-size: 0.88em;
+        }
+
+        @include mediumScreen {
+            font-size: 0.7em;
+        }
+    }
+
+    .navbarButtonActive {
+        border-bottom: 5px solid #000;
+    }
+    // disabled Menu
+    .css-1t6c9ts {
+        @include laptopScreen {
+            display: none;
+        }
+    }
+}
+
+html.htmlSun body#bodyId .navbarContainer .navbarMenuMain {
+
+    .navbarButton {
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titlePageName {
+            color: $colorA-sun;
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorD-sun;
+        }
+    }
+
+    .navbarButtonActive {
+        background-color: $colorA-sun-20;
+    }
+}
+
+html.htmlMoon body#bodyId .navbarContainer .navbarMenuMain {
+
+    .navbarButton {
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titlePageName {
+            color: $colorWhite;
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorD-moon;
+        }
+    }
+
+    .navbarButtonActive {
+        background-color: $colorD-moon-20;
+    }
+}

@@ -1,0 +1,25 @@
+.profileContainer .profileBoc {
+
+    div.imgAccordionContainer {
+        display: flex;
+        justify-content: center;
+
+        img {
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            height: 40vh;
+
+            @include laptopScreen {
+                height: 34vh;
+            }
+            @include tablet {
+                height: 32vh;
+            }
+            @include miniTablet {
+                height: 28vh;
+            }
+            @include mobile {
+                height: 20vh;
+            }
+        }
+    }
+}

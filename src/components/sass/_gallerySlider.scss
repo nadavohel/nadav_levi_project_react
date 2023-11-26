@@ -1,0 +1,21 @@
+.gallerySliderContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .sliderSecondContainer {
+        width: 60%;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        .image-gallery-thumbnail-image {
+            cursor: pointer;
+        }
+    }
+}
+
+.h1SliderSecondContainer {
+    width: 70vw;
+    margin-left: 15vw;
+    font-size: 3em;
+}

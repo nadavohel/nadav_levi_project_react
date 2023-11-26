@@ -1,0 +1,60 @@
+footer div.footerContainer div.iconFotter {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    gap: 10px;
+    margin-bottom: 12px;
+    z-index: 120;
+
+    @include tablet {
+        margin-bottom: 0;
+    }
+}
+
+html.htmlSun footer div.footerContainer div.iconFotter {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+    div.iconFotterHover:hover {
+        background-color: $colorC-sun-20;
+        border-bottom: 5px dotted $colorB-sun;
+        filter: drop-shadow(2px 3px 1px rgb(0 0 0 / 0.4));
+    }
+
+    div.iconFotterHover:active {
+        filter: drop-shadow(0px 0px 0px rgb(0 0 0));
+    }
+}
+
+html.htmlMoon footer div.footerContainer div.iconFotter {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+    div.iconFotterHover:hover {
+        background-color: $colorC-moon-20;
+        border-bottom: 5px dotted $colorB-moon;
+        filter: drop-shadow(2px 3px 1px rgb(0 0 0 / 0.4));
+    }
+
+    div.iconFotterHover:active {
+        filter: drop-shadow(0px 0px 0px rgb(0 0 0));
+    }
+}
+
+body#bodyId {
+
+    .css-ja5taz-MuiTooltip-tooltip {
+        padding: 2px 8px;
+        font-family: $fontB;
+    }
+}
+html.htmlSun body#bodyId {
+
+    .css-ja5taz-MuiTooltip-tooltip {
+        border: 2px solid #000;
+    }
+}
+html.htmlMoon body#bodyId {
+
+    .css-ja5taz-MuiTooltip-tooltip {
+        border: 2px solid #fff;
+    }
+}

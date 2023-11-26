@@ -1,0 +1,87 @@
+html {
+    p {
+        width: 70vw;
+        margin: 10px auto;
+        font-size: 1.5em;
+        font-family: $fontB;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        text-align: center;
+
+        @include miniTablet {
+            font-size: 3em;
+        }
+
+        @include mobile {
+            font-size: 2.4em;
+        }
+    }
+}
+
+html.htmlSun body#bodyId {
+
+    h1 {
+        font-family: $fontA;
+        color: $colorWhite;
+        -webkit-text-stroke: 0.5px black;
+        text-shadow:
+            0 1px 0 #333,
+            0 2px 0 #090909,
+            0 3px 0 #222,
+            0 4px 0 #090909,
+            0 5px 0 #555,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+    }
+
+    h3 {
+        font-family: $fontC;
+        color: $colorBlack;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    p {
+        color: $colorBlack;
+    }
+}
+
+html.htmlMoon body#bodyId {
+
+    h1 {
+        font-family: $fontA;
+        color: $colorBlack;
+        -webkit-text-stroke: 0.5px white;
+        text-shadow:
+            0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0, 0, 0, .1),
+            0 0 5px rgba(0, 0, 0, .1),
+            0 1px 3px rgba(0, 0, 0, .3),
+            0 3px 5px rgba(0, 0, 0, .2),
+            0 5px 10px rgba(0, 0, 0, .25),
+            0 10px 10px rgba(0, 0, 0, .2),
+            0 20px 20px rgba(0, 0, 0, .15);
+    }
+
+    h3 {
+        font-family: $fontC;
+        color: $colorG-moon;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    p {
+        color: $colorG-moon;
+    }
+}

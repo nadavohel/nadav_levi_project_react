@@ -1,0 +1,98 @@
+body#bodyId .navbarContainer .navbarMobile {
+
+    .css-1lvtzne {
+        @include laptopScreen {
+            display: flex;
+        }
+    }
+}
+
+body#bodyId {
+
+    div.nameOpenMenu {
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 1.5em;
+        height: 40px;
+    }
+}
+
+html.htmlSun body#bodyId {
+
+    .profileInMenu {
+        background-color: $colorE-sun;
+    }
+
+    div.nameOpenMenu {
+        color: $colorA-sun;
+        background-color: $colorC-sun;
+        font-family: $fontA;
+        text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .rowSideMenuNavbarBox {
+        background-color: $colorE-sun;
+        text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titleNenuSideName {
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorD-sun;
+        }
+    }
+
+    .rowSideMenuNavbar {
+        color: $colorA-sun;
+    }
+
+    .rowSideMenuNavbarActive {
+        background-color: $colorB-sun;
+        color: $colorC-sun;
+        border-radius: 20px;
+    }
+}
+
+html.htmlMoon body#bodyId {
+
+    .profileInMenu {
+        background-color: $colorD-moon;
+    }
+
+    div.nameOpenMenu {
+        color: $colorC-moon;
+        font-family: $fontA;
+        background-color: $colorB-moon;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .rowSideMenuNavbarBox {
+        background-color: $colorA-moon;
+        text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titleNenuSideName {
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorB-moon;
+        }
+    }
+
+    .rowSideMenuNavbar {
+        color: $colorC-moon;
+    }
+
+    .rowSideMenuNavbarActive {
+        background-color: $colorE-moon;
+        color: $colorA-moon;
+        border-radius: 20px;
+    }
+}

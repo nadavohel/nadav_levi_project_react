@@ -1,0 +1,42 @@
+html {
+
+    ::-webkit-scrollbar {
+        width: 13px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 25px;
+    }
+}
+html.htmlSun {
+
+    ::-webkit-scrollbar-track {
+        background: $colorC-sun;
+        border-left: 2px dashed #000;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-image: linear-gradient($colorE-sun, $colorC-sun);
+        border: 2px solid #000;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background-image: linear-gradient($colorB-sun, $colorC-sun);
+    }
+}
+html.htmlMoon {
+
+    ::-webkit-scrollbar-track {
+            background: $colorC-moon;
+            border-left: 2px dashed #000;
+        }
+    
+    ::-webkit-scrollbar-thumb {
+        background-image: linear-gradient($colorA-moon, $colorC-moon);
+        border: 2px solid #000;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-image: linear-gradient($colorF-moon, $colorC-moon);
+    }
+}

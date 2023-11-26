@@ -1,0 +1,72 @@
+.switch {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    margin: 4px 0px 0px 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(4, 52, 73);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    transition: background-image 0.7s ease-in-out;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid #000;
+    
+    &:checked {
+        background-color: rgb(0, 195, 255);
+        background-size: cover;
+        transition: background-image 1s ease-in-out;
+        
+        &:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+            left: 15px;
+            top: 5px;
+            transform-origin: 53px 10px;
+            background-color: transparent;
+            box-shadow: 5px -1px 0px #fff;
+            filter: blur(0px);
+            animation: sun 0.7s forwards ease;
+        }
+        
+        &:after {
+            animation: on 0.7s forwards cubic-bezier(0.8, 0.5, 0.2, 1.4);
+            box-shadow: inset -5px -5px 4px rgba(53, 53, 53, 0.3);
+        }
+    }
+    
+    &:after {
+        content: "";
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        transform: translateX(0px);
+        animation: off 0.7s forwards cubic-bezier(0.8, 0.5, 0.2, 1.4);
+        box-shadow: inset 5px -5px 4px rgba(53, 53, 53, 0.3);
+    }
+    &:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: 5px;
+        filter: blur(1px);
+        background-color: #f5daaa;
+        box-shadow: 0px 0px 10px #f5deb4, 0px 0px 20px #f5deb4, 0px 0px 30px #f5deb4,
+            inset 0px 0px 2px #efd3a3;
+        transform-origin: 53px 10px;
+        animation: moon 0.7s forwards ease;
+    }
+}

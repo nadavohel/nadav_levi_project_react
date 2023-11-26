@@ -1,0 +1,53 @@
+div.lonkToUserMoment {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    height: 40px;
+    transition: 0.3s;
+
+    &:hover {
+        font-size: 2.2em;
+        padding-top: -0.1em;
+
+        @include laptopScreenC {
+            font-size: 1.8em;
+        }
+
+        @include tablet {
+            font-size: 1.4em;
+        }
+    }
+
+    @include laptopScreen {
+        font-size: 1.8em;
+    }
+
+    @include laptopScreenC {
+        font-size: 1.6em;
+    }
+
+    @include tablet {
+        font-size: 1.2em;
+    }
+}
+
+html.htmlSun {
+
+    div.lonkToUserMoment {
+        color: $colorB-sun;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(103, 103, 103, 0.3);
+    }
+}
+
+html.htmlMoon {
+
+    div.lonkToUserMoment {
+        color: $colorA-moon;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+}

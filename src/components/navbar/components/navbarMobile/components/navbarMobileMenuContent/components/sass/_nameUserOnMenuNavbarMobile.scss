@@ -1,0 +1,34 @@
+/* body#bodyId .NavbarMobileMenuContent {
+
+    div.nameOpenMenu {
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 1.5em;
+        height: 40px;
+    }
+}
+
+body#bodyId .NavbarMobileMenuContentSun {
+
+    div.nameOpenMenu {
+        color: $colorA-sun;
+        background-color: $colorC-sun;
+        font-family: $fontA;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+}
+
+body#bodyId .NavbarMobileMenuContentMoon {
+
+    div.nameOpenMenu {
+        color: $colorA-moon;
+        font-family: $fontA;
+        background-color: $colorB-moon;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+} */

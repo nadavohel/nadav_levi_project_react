@@ -1,0 +1,33 @@
+div.accordionContainer {
+    margin-bottom: 5px;
+    width: 50vw;
+    margin-left: 25vw;
+    @include extraScreen {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    @include largeScreen {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    @include laptopScreen {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    @include tablet {
+        width: 100vw;
+        margin-left: 0vw;
+    }
+}
+
+html.htmlSun div.accordionContainer {
+    .MuiAccordionDetails-root {
+        background-color: $colorG-sun;
+    }
+}
+
+html.htmlMoon div.accordionContainer {
+    .MuiAccordionDetails-root {
+        background-color: $colorG-sun;
+    }
+}

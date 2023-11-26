@@ -1,0 +1,45 @@
+html.htmlSun body#bodyId {
+
+    .MomentCard {
+
+        .css-46bh2p-MuiCardContent-root{
+            background-color: $colorD-sun;
+            text-align: center;
+            height: 75px;
+            /* margin-top: 1px; */
+            
+            p {
+                width: 100%;
+
+                span {
+                    text-align: center;
+                    font-family: $fontA;
+                    color: $colorA-sun;
+                }
+            }
+        }
+    }
+}
+
+html.htmlMoon body#bodyId {
+
+    .MomentCard {
+        
+        .css-46bh2p-MuiCardContent-root {
+            background-color: $colorB-moon;
+            text-align: center;
+            height: 75px;
+            /* margin-top: 1px; */
+    
+            p {
+                width: 100%;
+    
+                span {
+                    text-align: center;
+                    font-family: $fontA;
+                    color: $colorC-moon;
+                }
+            }
+        }
+    }
+}

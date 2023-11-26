@@ -1,0 +1,14 @@
+div.usersMenagment div.accordionContainer {
+
+    div.remove {
+        margin: 0;
+        transition: 0.3s;
+        cursor: pointer;
+        font-size: 1em;
+        background: none;
+    }
+
+    div.remove:hover {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,29 @@
+div.nameAccordion {
+    min-width: 45vw;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align-last: left;
+    font-family: $fontC;
+}
+
+html.htmlSun {
+
+    div.UserHeaderAccordion {
+        background-color: $colorE-sun;
+        color: $colorA-sun;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(103, 103, 103, 0.3);
+    }
+}
+
+html.htmlMoon {
+    
+    div.UserHeaderAccordion {
+        background-color: $colorA-moon;
+        color: $colorC-moon;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+}

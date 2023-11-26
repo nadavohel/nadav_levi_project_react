@@ -1,0 +1,33 @@
+body#bodyId .navbarContainer .navbarSearch {
+    display: none;
+    box-shadow: 
+        rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, 
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    @media (min-width: 600px) {
+        display: block;
+    }
+}
+
+html.htmlSun body#bodyId .navbarContainer .navbarSearch {
+
+    .searchBox {
+        background-color: $colorD-sun;
+        color: $colorA-sun;
+
+        &:hover {
+            background-color: $colorC-sun;
+        }
+    }
+}
+html.htmlMoon body#bodyId .navbarContainer .navbarSearch {
+
+    .searchBox {
+        background-color: $colorE-sun;
+        color: $colorA-sun;
+
+        &:hover {
+            background-color: $colorC-sun;
+        }
+    }
+}

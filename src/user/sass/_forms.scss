@@ -1,0 +1,7 @@
+.fromContainer {
+    width: 800px;
+
+    @include laptopScreen {
+        width: 90vw;
+    }
+}

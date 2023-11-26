@@ -1,0 +1,14 @@
+div.containerSlider {
+    display: flex;
+    top: 180px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    div.galleryBox {
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}

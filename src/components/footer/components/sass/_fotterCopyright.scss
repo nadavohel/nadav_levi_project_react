@@ -1,0 +1,40 @@
+footer {
+
+    div.Copyright {
+        display: flex;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding-top: 1px;
+
+        p {
+            display: inline;
+            width: 220px;
+            margin: 4px 0 0 0;
+            padding: 8px;
+            height: 20px;
+            font-weight: 200;
+            letter-spacing: 0;
+            line-height: 0;
+        }
+    }
+}
+
+html.htmlSun body#bodyId {
+
+    footer div.Copyright {
+        p {
+            color: $colorB-sun;
+        }
+    }
+}
+
+html.htmlMoon body#bodyId {
+
+    footer div.Copyright {
+        p {
+            color: $colorE-moon;
+        }
+    }
+}

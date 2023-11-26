@@ -1,0 +1,29 @@
+div.usersMenagment div.accordionContainer {
+
+    div.imgAccordionContainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        img {
+            width: 30vw;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+            @include extraScreen {
+                width: 40vw;
+            }
+
+            @include largeScreen {
+                width: 50vw;
+            }
+
+            @include laptopScreen {
+                width: 60vw;
+            }
+
+            @include tablet {
+                width: 100vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+div.navbarContainer {
+    
+    .leftSide {
+        width: 80%;
+
+        @include largeScreen {
+            width: 72%;
+        }
+    }
+    .rightSide {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+}
+
+html.htmlSun div.navbarContainer {
+
+    .navbarMain{
+        background-color: $colorE-sun;
+    }
+}
+
+html.htmlMoon div.navbarContainer {
+
+    .navbarMain{
+        background-color: $colorA-moon;
+    }
+}
+
+html body#bodyId div.navbarContainer {
+
+    .rightSideOpenMenu{
+        .css-r6ewbb-MuiToolbar-root {
+            margin-right: 0px;
+        }
+    }
+}

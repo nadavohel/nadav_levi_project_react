@@ -1,0 +1,49 @@
+body#bodyId div.containerMomentCard div.userCardShadow {
+
+    .MuiCardContent-root{
+        padding: 10px 0px;
+        margin-top: -2px;
+    } 
+    .userCardAdressContainer {
+        height: 200px;
+
+        .adreessTypographyContainer {
+            width: 325px;
+            height: 140px;
+
+            p {
+                width: 325px;
+                text-align: center;
+                margin: 2px;
+            }
+        }
+    }
+}
+
+html.htmlSun body#bodyId div.containerMomentCard {
+
+    .userCardAdressContainer{
+        background-color: $colorG-sun;
+
+        .adreessTypographyContainer {
+
+            p {
+                color: $colorA-sun;
+            }
+        }
+    }
+}
+
+html.htmlMoon body#bodyId div.containerMomentCard {
+
+        .userCardAdressContainer {
+            background-color: $colorC-sun;
+
+            .adreessTypographyContainer{
+
+                    p {
+                        color: $colorD-moon;
+                    }
+            }
+    }
+}

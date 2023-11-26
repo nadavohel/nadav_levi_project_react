@@ -1,0 +1,106 @@
+/* 
+body#bodyId .navbarMenuSideContent {
+
+
+    div.nameOpenMenuSun {
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 1.5em;
+        height: 40px;
+    }
+
+    div.nameOpenMenuMoon {
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 1.5em;
+        height: 40px;
+    }
+}
+body#bodyId .navbarMenuSideContentSun {
+
+    
+    div.nameOpenMenuSun {
+        color: $colorA-sun;
+        background-color: $colorC-sun;
+        font-family: $fontA;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .rowSideMenuNavbarBoxSun {
+        background-color: $colorE-sun;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titleNenuSideNameSun {
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorD-sun;
+        }
+    }
+
+    .rowSideMenuNavbarSun {
+        color: $colorA-sun;
+    }
+
+    .rowSideMenuNavbarActiveSun {
+        background-color: $colorB-sun;
+        color: $colorA-sun;
+        border-radius: 20px;
+    }
+}
+body#bodyId .navbarMenuSideContentMoon {
+
+    .profileInMenu {
+        
+        img {
+            box-shadow: 
+                rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+    }
+
+    .profileInMenuMoon {
+        background-color: $colorA-moon;
+    }
+
+    div.nameOpenMenuMoon {
+        color: $colorA-moon;
+        font-family: $fontA;
+        background-color: $colorB-moon;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    .rowSideMenuNavbarBoxMoon {
+        background-color: $colorA-moon;
+        text-shadow: 
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+
+        .titleNenuSideNameMoon {
+            font-family: $fontA;
+        }
+
+        &:hover {
+            background-color: $colorB-moon;
+        }
+    }
+
+    .rowSideMenuNavbarMoon {
+        color: $colorC-moon;
+    }
+
+    .rowSideMenuNavbarActiveMoon {
+        background-color: $colorD-moon;
+        color: $colorA-moon;
+        border-radius: 20px;
+    }
+} */

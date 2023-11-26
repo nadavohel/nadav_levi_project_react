@@ -1,0 +1,39 @@
+html.htmlSun body#bodyId {
+
+    .rowSideMenuMomentBox {
+        background-color: $colorE-sun;
+        text-shadow:
+            2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    
+        .titleNenuSideName {
+            font-family: $fontA;
+            color: $colorA-sun;
+            width: 100%;
+        }
+    
+        &:hover {
+            background-color: $colorD-sun;
+        }
+    }
+}
+
+html.htmlMoon body#bodyId {
+
+    .rowSideMenuMomentBox {
+        background-color: $colorA-moon;
+        text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(255, 255, 255, 0.3);
+    
+        .titleNenuSideName {
+            font-family: $fontA;
+            color: $colorE-moon;
+            width: 100%;
+        }
+    
+        &:hover {
+            background-color: $colorC-moon;
+        }
+    }
+}
+
